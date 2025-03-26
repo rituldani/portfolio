@@ -12,7 +12,6 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
-
   base: '/portfolio/', // ✅ Set repo name correctly
   build: {
     outDir: 'dist', // ✅ Build files go to /dist
