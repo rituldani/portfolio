@@ -12,7 +12,7 @@ export default defineConfig({
     tailwindcss(),
     react()
   ],
-  base: '/My-portfolio/', // ✅ Set repo name correctly
+  base: '/portfolio/', // ✅ Set repo name correctly
   build: {
     outDir: 'dist', // ✅ Build files go to /dist
   },
