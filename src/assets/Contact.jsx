@@ -23,7 +23,7 @@ const Contact = React.forwardRef((props, ref) => {
           </div>
           <div class="h-45 w-62 flex justify-evenly items-center text-lg flex-col">
             <img src={image[2]} alt='#' height={100} width={100} />
-            <p class="">Phone Number</p>
+            <p class="">Contact Number</p>
             <p class="">+91 9461261816</p>
           </div>
         </div>

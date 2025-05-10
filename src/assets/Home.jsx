@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Home = React.forwardRef((props, ref) => {
-  const resumeUrl = "/resume.pdf";
+  const resumeUrl = "/portfolio/resume.pdf";
   return (
     <div ref={ref} class="w-full mt-15 flex justify-between lg:flex-row flex-col" >
       <div class="flex flex-1 items-center ">
@@ -11,7 +11,8 @@ const Home = React.forwardRef((props, ref) => {
           <p class="my-1 text-[1.2em]">I am Ritul Dani, a front-end developer passionate about creating responsive
             and user-friendly web applications. I specialize in HTML, CSS, JavaScript, and modern frameworks like React.
             With a keen eye for design and performance optimization, I strive to deliver seamless user experiences.</p>
-          <a href={resumeUrl} download="resume.pdf">
+          {/* <a href={resumeUrl} download="resume.pdf"> */}
+          <a href={resumeUrl} download="Resume.pdf" target="_blank" rel="noopener noreferrer">
             <button class="bg-pink-200 hover:bg-pink-300 mt-2 text-[1.2em] p-2 cursor-pointer text-black hover:text-white rounded-md">Download Resume</button>
           </a>
         </div>
