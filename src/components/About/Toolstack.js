@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiPostman,
-  // SiVercel,
+  SiVercel,
   SiRender,
   SiBlender,
   // SiXampp,
@@ -13,7 +13,7 @@ const tools = [
   { icon: <SiVisualstudiocode />, name: "VSCode" },
   { icon: <SiBlender />, name: "Blender" },
   { icon: <SiPostman />, name: "Postman" },
-  { icon: <SiRender />, name: "Blender" },
+  { icon: <SiVercel />, name: "Vercel" },
 ]
 
 function Toolstack() {
