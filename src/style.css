@@ -309,7 +309,18 @@ button:focus {
   justify-content: center !important;
   padding-top: 9em !important;
 }
+.image{
+  margin-left: 80px;
+  width: 250px;              /* Adjust as needed */
+  height: 250px;
+  background-color: #c770f0;  /* Purple background */
+  border-radius: 50%;        /* Makes it circular */
+  overflow: hidden;          /* Ensures image stays inside circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
 @media (max-width: 767px) {
   .myAvtar {
     padding-top: 2em !important;
