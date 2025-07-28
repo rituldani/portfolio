@@ -26,7 +26,7 @@ function Projects() {
               title="Chat App"
               description="Personal Chat Room or real-time chat application with user authentication, online status, typing indicators, and instant message delivery with react.js, Socket.IO, JWT, and MongoDB."
               ghLink="https://github.com/rituldani/real-time-chat-app.git"
-              // demoLink="https://chatify-49.web.app/"
+              demoLink="https://real-time-chat-app-git-main-ritul-danis-projects.vercel.app/"
             />
           </Col>
 
